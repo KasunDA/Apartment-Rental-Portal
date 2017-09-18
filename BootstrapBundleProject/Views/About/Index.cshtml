@@ -1,0 +1,77 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">
+                About
+                <small>It's Nice to Meet You!</small>
+            </h1>
+            <ol class="breadcrumb">
+                <li>
+                    @Html.ActionLink("Home", "Index", "Home")
+            </li>
+            <li class="active">About</li>
+        </ol>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6">
+        <img src="http://www.hotel-r.net/im/hotel/mc/apartments-monaco.jpg" class="img-responsive">
+    </div>
+    <div class="col-md-6">
+        <h2>Welcome to 'Apartment Rental System'</h2>
+        <p>We provide you a platform to find appartments of your choice to rent and to let your spare appartments for extra bucks in various cities.</p>
+        <p>We also provide rent and issues management portal for better communication between tenants and owners. You may forward your monthly rental to owner or send a notification to tenants for timely rent transfers. The issue manager comfortably allows you to send messages to owner regarding repairs needed in the appartment.</p>
+    </div>
+</div>
+<!-- Team Member Profiles -->
+<div class="row">
+    <div class="col-lg-12 text-center">
+        <h2 class="page-header">ARS Team</h2>
+    </div>
+    <div class="col-sm-12 text-center">
+        @*<img src="https://www.facebook.com/photo.php?fbid=10204026353694181&l=14db68f158" class="img-responsive">*@
+        <h3>
+            Akhilesh Borgaonkar
+            <small>Developer</small>
+        </h3>
+        <h3>
+            Akash Amaraneni
+            <small>Developer</small>
+        </h3>
+        <p>Responsible for development of ARS company.</p>
+        <ul class="list-unstyled list-inline list-social-icons">
+            <li class="tooltip-social facebook-link">
+                <a title="Facebook" data-placement="top" data-toggle="tooltip" href="https://www.facebook.com/akhileshborgaonkar"><i class="fa fa-facebook-square fa-2x"></i></a>
+            </li>
+            <li class="tooltip-social linkedin-link">
+                <a title="LinkedIn" data-placement="top" data-toggle="tooltip" href="#linkedin-profile"><i class="fa fa-linkedin-square fa-2x"></i></a>
+            </li>
+            <li class="tooltip-social twitter-link">
+                <a title="Twitter" data-placement="top" data-toggle="tooltip" href="#twitter-profile"><i class="fa fa-twitter-square fa-2x"></i></a>
+            </li>
+            <li class="tooltip-social google-plus-link">
+                <a title="Google+" data-placement="top" data-toggle="tooltip" href="#google-plus-profile"><i class="fa fa-google-plus-square fa-2x"></i></a>
+            </li>
+        </ul>
+    </div>
+    
+<!-- Our Customers -->
+<div class="row">
+    <div class="col-lg-12">
+        <h2 class="page-header">Our Customers</h2>
+    </div>
+    <div class="col-md-4 col-sm-4 col-xs-4">
+        <img src="https://pbs.twimg.com/profile_images/480221391883493376/gGt0-WMW_400x400.png" class="img-responsive img-customer">
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-3">
+        <img src="https://blogs-images.forbes.com/petercohan/files/2012/12/RentHop-logo.jpg" class="img-responsive img-customer">
+    </div>
+    <div class="col-md-4 col-sm-4 col-xs-4">
+        <img src="https://d214hhm15p4t1d.cloudfront.net/8_2_5/z/img/square-logo.png" class="img-responsive img-customer">
+    </div>
+   
+    </div>
+</div>

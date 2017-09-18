@@ -1,0 +1,26 @@
+﻿@model System.Data.DataTable
+@using System.Data;
+
+
+@using (Html.BeginForm("SearchPost", "SemanticWeb"))
+{
+    string value = @"        SELECT ?Last ?First ?StreetAddress ?City ?State ?PostalCode ?Country 
+	    WHERE {
+                ?student        person:givenName ?First ;
+                                person:familyName ?Last ;
+                                teach:StudentGroup    ?AcademicLevel; 
+                                place:address ?postalAddress .
+                ?postalAddress  address:streetAddress ?StreetAddress;
+                                address:addressLocality ?City;
+                                address:addressRegion ?State;
+                                address:postalCode ?PostalCode;
+                                address:addressCountry ?Country.
+	        }";
+    
+
+    @Html.TextArea("query", value, 25, 200, new { @class = "form-control" })<br/>
+    <button type="submit" class="btn btn-info">
+        <span class="glyphicon glyphicon-search"></span> Search
+    </button>
+}
+

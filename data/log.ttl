@@ -1,0 +1,57 @@
+# filename: log.ttl
+
+@prefix apt: < http://schema.org/Apartment#>.
+@prefix plc: <http://schema.org/Place#>.
+@prefix thg: <http://schema.org/Thing#>.
+@prefix ra: <http://schema.org/RentAction#>.
+@prefix d: <http://learningsparql.com/ns/data#>.
+
+
+d:234765123 thg:description 'happy home.'.
+d:234765123 plc:address '233 State St'.
+d:234765123 apt:occupancy '2'.
+d:234765123 apt:numberOfRooms '1'.
+d:234765123 ra:landlord 'John'.
+d:234765123 plc:telephone '234765123'.
+
+d:234345456 thg:description 'happy home.'.
+d:234345456 plc:address '345 broad'.
+d:234345456 apt:occupancy '2'.
+d:234345456 apt:numberOfRooms '1'.
+d:234345456 ra:landlord 'mike'.
+d:234345456 plc:telephone '234345456'.
+
+d:234543123 thg:description 'nice home'.
+d:234543123 plc:address '231 happy street'.
+d:234543123 apt:occupancy '4'.
+d:234543123 apt:numberOfRooms '2'.
+d:234543123 ra:landlord 'walther'.
+d:234543123 plc:telephone '234543123'.
+
+d:564765344 thg:description 'pleasant place'.
+d:564765344 plc:address '333 main st'.
+d:564765344 apt:occupancy '4'.
+d:564765344 apt:numberOfRooms '4'.
+d:564765344 ra:landlord 'robin'.
+d:564765344 plc:telephone '564765344'.
+
+d:852456789 thg:description 'pleasurous'.
+d:852456789 plc:address '234 grand ave'.
+d:852456789 apt:occupancy '2'.
+d:852456789 apt:numberOfRooms '1'.
+d:852456789 ra:landlord 'Akhil'.
+d:852456789 plc:telephone '852456789'.
+
+d:854785985 thg:description 'terrific place'.
+d:854785985 plc:address '333 happy st'.
+d:854785985 apt:occupancy '4'.
+d:854785985 apt:numberOfRooms '2'.
+d:854785985 ra:landlord 'Akash'.
+d:854785985 plc:telephone '854785985'.
+
+d:2587899631 thg:description 'A happy and pleasant place to live.'.
+d:2587899631 plc:address '400, university ave, bridgeport, ct'.
+d:2587899631 apt:occupancy '4'.
+d:2587899631 apt:numberOfRooms '2'.
+d:2587899631 ra:landlord 'Akhilesh'.
+d:2587899631 plc:telephone '2587899631'.
